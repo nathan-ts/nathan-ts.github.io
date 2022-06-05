@@ -34,3 +34,35 @@ export const projects = [
     link: "https://github.com/nathan-ts/tinyapp",
   },
 ];
+
+export const skills = [
+  "JavaScript",
+  "jQuery",
+  "React",
+  "HTML", 
+  "CSS",
+  "Python",
+  "Cypress",
+  "Mocha & Chai",
+  "Node.js",
+  "Express.js",
+  "EJS",
+  "PostgreSQL",
+  "Ruby on Rails",
+  "Storybook"
+];
+
+export const testimonials = [
+  {
+    name: "",
+    image: "",
+    company: "",
+    quote: "",
+  },
+  {
+    name: "",
+    image: "",
+    company: "",
+    quote: "",
+  }
+];
