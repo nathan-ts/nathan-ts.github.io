@@ -14,7 +14,7 @@ export const projects = [
     subtitle: "JS Event Scheduler",
     description:
       "An event scheduling app for organizers and attendees alike to share their availability.",
-      image: "./logo192.png",
+      image: "./schoodle-logo.png",
     link: "https://github.com/nathan-ts/schoodle",
   },
   {

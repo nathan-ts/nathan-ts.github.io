@@ -4,7 +4,11 @@ import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
+import useScript from '../hooks/useScript';
+
 export default function Projects() {
+  useScript("https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js");
+
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -19,6 +23,11 @@ export default function Projects() {
             fuga dolore.
           </p>
         </div>
+        <div 
+            className="github-card" 
+            dataUser="nathan-ts" 
+            dataRepo="github-cards"
+          ></div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
@@ -28,7 +37,7 @@ export default function Projects() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-contain object-center"
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
