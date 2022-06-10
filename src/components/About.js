@@ -13,8 +13,8 @@ export default function About() {
             I'm always looking to optimize.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I think the only card she has is the Lorem card. My text is long and beautiful, as, it has been well documented, are various other parts of my website. 
-            Despite the constant negative ipsum covfefe. You know, it really doesn’t matter what you write as long as you’ve got a young, and beautiful, piece of text.
+            Former CPA turned Full-Stack Developer. 
+            Ready to bring my unique skills, whether it be analysis, attention to detail, or discussion with clients to my next adventure. 
           </p>
           <div className="flex justify-center">
             <a
