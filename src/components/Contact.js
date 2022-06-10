@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 
+import { InboxInIcon } from "@heroicons/react/solid";
+
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -29,7 +31,28 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="text-center mb-10">
+        <InboxInIcon className="w-10 inline-block mb-4" />
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          Contact
+        </h1>
+        {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          Feel free to reach out to me to discuss any of the below!
+        </p> */}
+      </div>
+      <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+        <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+          EMAIL
+        </h2>
+        <a className="text-indigo-400 leading-relaxed" href="mailto:hi@nathantsang.dev">
+          hi@nathantsang.dev
+        </a>
+        <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+          PHONE
+        </h2>
+        <p className="leading-relaxed">Please ask!</p>
+      </div>
+      <div className="container px-6 py-6 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
@@ -50,18 +73,6 @@ export default function Contact() {
               <p className="mt-1">
                 Toronto, ON
               </p>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
-              </h2>
-              <a className="text-indigo-400 leading-relaxed" href="mailto:nathan.py.tsang@gmail.com">
-                hi@nathantsang.dev
-              </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">Please ask!</p>
             </div>
           </div>
         </div>
