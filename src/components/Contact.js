@@ -2,7 +2,10 @@
 
 import React, { useState } from "react";
 
-import { InboxInIcon } from "@heroicons/react/solid";
+import { InboxInIcon, PhoneIcon } from "@heroicons/react/solid";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvira } from '@fortawesome/free-brands-svg-icons';
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -48,7 +51,7 @@ export default function Contact() {
           hi@nathantsang.dev
         </a>
         <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-          PHONE
+          PHONE <FontAwesomeIcon icon={faEnvira} />
         </h2>
         <p className="leading-relaxed">Please ask!</p>
       </div>
