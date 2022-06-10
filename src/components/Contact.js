@@ -5,7 +5,10 @@ import React, { useState } from "react";
 import { InboxInIcon, PhoneIcon } from "@heroicons/react/solid";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvira } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+// import { faMobile } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -39,21 +42,26 @@ export default function Contact() {
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
           Contact
         </h1>
-        {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          Feel free to reach out to me to discuss any of the below!
-        </p> */}
       </div>
       <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
         <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-          EMAIL
+          <FontAwesomeIcon icon={faEnvelope} /> EMAIL
         </h2>
         <a className="text-indigo-400 leading-relaxed" href="mailto:hi@nathantsang.dev">
           hi@nathantsang.dev
         </a>
         <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-          PHONE <FontAwesomeIcon icon={faEnvira} />
+          <FontAwesomeIcon icon={faLinkedin} /> LINKEDIN
         </h2>
-        <p className="leading-relaxed">Please ask!</p>
+        <a className="text-indigo-400 leading-relaxed" href="https://www.linkedin.com/in/npytsang/" target="_blank" rel="noreferrer">
+          linkedin.com/in/npytsang
+        </a>
+        <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+          <FontAwesomeIcon icon={faGithub} /> GITHUB
+        </h2>
+        <a className="text-indigo-400 leading-relaxed" href="https://github.com/nathan-ts/" target="_blank" rel="noreferrer">
+          github.com/nathan-ts
+        </a>
       </div>
       <div className="container px-6 py-6 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
