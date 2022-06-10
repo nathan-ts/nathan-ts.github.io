@@ -2,12 +2,11 @@
 
 import React, { useState } from "react";
 
-import { InboxInIcon, PhoneIcon } from "@heroicons/react/solid";
+import { InboxInIcon } from "@heroicons/react/solid";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-// import { faMobile } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Contact() {
@@ -92,7 +91,7 @@ export default function Contact() {
               github.com/nathan-ts
             </a>
           </div>
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-small title-font">
             Hire Me!
           </h2>
           <p className="leading-relaxed mb-5">
