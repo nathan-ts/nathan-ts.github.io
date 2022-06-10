@@ -6,7 +6,7 @@ export const projects = [
     subtitle: "React Plant Learning",
     description:
       "An application that interacts with the Plant ID API to retrieve plant information based on images uploaded by the user.",
-    image: "./logo192.png",
+    image: "./herbiview-logo.png",
     link: "https://github.com/nathan-ts/herbiview",
   },
   {
@@ -22,7 +22,7 @@ export const projects = [
     subtitle: "React Interview Scheduler",
     description:
       "An interview scheduling app.",
-      image: "./logo192.png",
+      image: "./scheduler-logo.png",
     link: "https://github.com/nathan-ts/scheduler",
   },
   {
@@ -30,7 +30,7 @@ export const projects = [
     subtitle: "JS Url Shortener",
     description:
       "A URL shortener app, with login and rudimentary statistics.",
-      image: "./logo192.png",
+      image: "./tinyapp-logo.png",
     link: "https://github.com/nathan-ts/tinyapp",
   },
 ];
