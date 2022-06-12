@@ -78,18 +78,20 @@ export default function Contact() {
             {/* <a className="text-indigo-400 leading-relaxed" href="mailto:hi@nathantsang.dev">
               hi@nathantsang.dev
             </a> */}
-            <h2 className="title-font font-semibold text-white tracking-widest text-s mt-4">
+            <br />
+            <a className="title-font font-semibold text-white tracking-widest text-s mt-4" href="https://www.linkedin.com/in/npytsang/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faLinkedin} /> LINKEDIN
-            </h2>
-            <a className="text-indigo-400 leading-relaxed" href="https://www.linkedin.com/in/npytsang/" target="_blank" rel="noreferrer">
+            </a>
+            {/* <a className="text-indigo-400 leading-relaxed" href="https://www.linkedin.com/in/npytsang/" target="_blank" rel="noreferrer">
               linkedin.com/in/npytsang
-            </a>
-            <h2 className="title-font font-semibold text-white tracking-widest text-s mt-4">
+            </a> */}
+            <br />
+            <a className="title-font font-semibold text-white tracking-widest text-s mt-4" href="https://github.com/nathan-ts/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} /> GITHUB
-            </h2>
-            <a className="text-indigo-400 leading-relaxed" href="https://github.com/nathan-ts/" target="_blank" rel="noreferrer">
-              github.com/nathan-ts
             </a>
+            {/* <a className="text-indigo-400 leading-relaxed" href="https://github.com/nathan-ts/" target="_blank" rel="noreferrer">
+              github.com/nathan-ts
+            </a> */}
           </div>
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-small title-font">
             Hire Me!
