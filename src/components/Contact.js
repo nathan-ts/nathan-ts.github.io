@@ -72,12 +72,12 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <div className="lg:w-1/2 mb-6 lg:mt-0">
-            <h2 className="title-font font-semibold text-white tracking-widest text-s">
+            <a className="title-font font-semibold text-white tracking-widest text-s" href="mailto:hi@nathantsang.dev">
               <FontAwesomeIcon icon={faEnvelope} /> EMAIL
-            </h2>
-            <a className="text-indigo-400 leading-relaxed" href="mailto:hi@nathantsang.dev">
-              hi@nathantsang.dev
             </a>
+            {/* <a className="text-indigo-400 leading-relaxed" href="mailto:hi@nathantsang.dev">
+              hi@nathantsang.dev
+            </a> */}
             <h2 className="title-font font-semibold text-white tracking-widest text-s mt-4">
               <FontAwesomeIcon icon={faLinkedin} /> LINKEDIN
             </h2>
