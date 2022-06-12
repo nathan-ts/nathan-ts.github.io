@@ -70,28 +70,19 @@ export default function Contact() {
           netlify
           name="contact"
           onSubmit={handleSubmit}
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <div className="lg:w-1/2 mb-6 lg:mt-0">
-            <a className="title-font font-semibold text-white tracking-widest text-s" href="mailto:hi@nathantsang.dev">
+          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-6 mt-8 md:mt-0">
+          <div className="lg:w-1/2 mb-3 leading-loose lg:mt-0">
+            <a className="title-font font-semibold text-white tracking-widest text-xl" href="mailto:hi@nathantsang.dev">
               <FontAwesomeIcon icon={faEnvelope} /> EMAIL
             </a>
-            {/* <a className="text-indigo-400 leading-relaxed" href="mailto:hi@nathantsang.dev">
-              hi@nathantsang.dev
-            </a> */}
             <br />
-            <a className="title-font font-semibold text-white tracking-widest text-s mt-4" href="https://www.linkedin.com/in/npytsang/" target="_blank" rel="noreferrer">
+            <a className="title-font font-semibold text-white tracking-widest text-xl" href="https://www.linkedin.com/in/npytsang/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faLinkedin} /> LINKEDIN
             </a>
-            {/* <a className="text-indigo-400 leading-relaxed" href="https://www.linkedin.com/in/npytsang/" target="_blank" rel="noreferrer">
-              linkedin.com/in/npytsang
-            </a> */}
             <br />
-            <a className="title-font font-semibold text-white tracking-widest text-s mt-4" href="https://github.com/nathan-ts/" target="_blank" rel="noreferrer">
+            <a className="title-font font-semibold text-white tracking-widest text-xl" href="https://github.com/nathan-ts/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} /> GITHUB
             </a>
-            {/* <a className="text-indigo-400 leading-relaxed" href="https://github.com/nathan-ts/" target="_blank" rel="noreferrer">
-              github.com/nathan-ts
-            </a> */}
           </div>
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-small title-font">
             Hire Me!
