@@ -54,17 +54,19 @@ export const projects = [
 export const skills = [
   "JavaScript",
   "jQuery",
-  "React",
-  "HTML", 
-  "CSS",
-  "Python",
-  "Cypress",
-  "Mocha & Chai",
+  "React.js",
+  "Vue.js",
   "Node.js",
   "Express.js",
   "EJS",
   "PostgreSQL",
   "Ruby on Rails",
+  "HTML", 
+  "CSS",
+  "Python",
+  "Cypress.io",
+  "Mocha.js",
+  "Chai.js",
   "Storybook"
 ];
 
