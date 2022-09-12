@@ -10,6 +10,22 @@ export const projects = [
     link: "https://github.com/nathan-ts/herbiview",
   },
   {
+    title: "Weather",
+    subtitle: "React Weather App",
+    description:
+      "A React weather app. Written to use API calls and some state management.",
+    image: "./weather-logo.png",
+    link: "https://github.com/nathan-ts/weather-app",
+  },
+  {
+    title: "Rental Tracker",
+    subtitle: "Your rental property manager.",
+    description:
+      "Vue rental property tracker. Learning about object management on a mock back-end.",
+    image: "./rental-logo.png",
+    link: "https://github.com/nathan-ts/rental-tracker",
+  },
+  {
     title: "Schoodle",
     subtitle: "JS Event Scheduler",
     description:
@@ -21,7 +37,7 @@ export const projects = [
     title: "Scheduler",
     subtitle: "React Interview Scheduler",
     description:
-      "An interview scheduling app.",
+      "An interview scheduling app. Learning about React states and views.",
       image: "./scheduler-logo.png",
     link: "https://github.com/nathan-ts/scheduler",
   },
