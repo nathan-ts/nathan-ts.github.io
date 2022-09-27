@@ -71,24 +71,24 @@ export default function Contact() {
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-6 mt-8 md:mt-0">
-          <div className="lg:w-1/2 mb-3 leading-loose lg:mt-0">
-            <a className="title-font font-semibold text-white tracking-widest text-xl" href="mailto:hi@nathantsang.dev">
+          <div className="lg:w-1/2 mb-3 leading-loose">
+            <a className="title-font font-semibold text-white tracking-wide text-2xl" href="mailto:hi@nathantsang.dev">
               <FontAwesomeIcon icon={faEnvelope} /> EMAIL
             </a>
             <br />
-            <a className="title-font font-semibold text-white tracking-widest text-xl" href="https://www.linkedin.com/in/npytsang/" target="_blank" rel="noreferrer">
+            <a className="title-font font-semibold text-white tracking-wide text-2xl" href="https://www.linkedin.com/in/npytsang/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faLinkedin} /> LINKEDIN
             </a>
             <br />
-            <a className="title-font font-semibold text-white tracking-widest text-xl" href="https://github.com/nathan-ts/" target="_blank" rel="noreferrer">
+            <a className="title-font font-semibold text-white tracking-wide text-2xl" href="https://github.com/nathan-ts/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} /> GITHUB
             </a>
           </div>
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-small title-font">
-            Hire Me!
+            Contact Me!
           </h2>
           <p className="leading-relaxed mb-5">
-            Always open to discussing interesting, challenging positions that fit my skills.
+            Always open to discussing interesting, challenging positions that fit my skills. Or contact me if you desire a copy of my resume.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
