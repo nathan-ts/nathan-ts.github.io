@@ -13,7 +13,7 @@ export const projects = [
     title: "Weather",
     subtitle: "React Weather App",
     description:
-      "A React weather app. Written to use API calls and some state management.",
+      "A React weather app. Written to use API calls and state management.",
     image: "./weather-logo.png",
     link: "https://github.com/nathan-ts/weather-app",
   },
@@ -21,13 +21,13 @@ export const projects = [
     title: "Rental Tracker",
     subtitle: "Your rental property manager.",
     description:
-      "Vue rental property tracker. Learning about object management on a mock back-end.",
+      "Vue rental property tracker. Learning about object management with mock data.",
     image: "./rental-logo.png",
     link: "https://github.com/nathan-ts/rental-tracker",
   },
   {
     title: "Schoodle",
-    subtitle: "JS Event Scheduler",
+    subtitle: "Event Scheduler",
     description:
       "An event scheduling app for organizers and attendees alike to share their availability.",
       image: "./schoodle-logo.png",
@@ -37,7 +37,7 @@ export const projects = [
     title: "Scheduler",
     subtitle: "React Interview Scheduler",
     description:
-      "An interview scheduling app. Learning about React states and views.",
+      "An interview scheduling app, built to learn about React states and views.",
       image: "./scheduler-logo.png",
     link: "https://github.com/nathan-ts/scheduler",
   },
